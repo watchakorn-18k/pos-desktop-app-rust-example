@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![alt text](image.png)
+![alt text](image.gif)
 
 </div>
 

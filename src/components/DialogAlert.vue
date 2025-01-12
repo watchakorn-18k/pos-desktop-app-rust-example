@@ -74,7 +74,7 @@ const closeModal = () => {
                             class="text-xl font-semibold text-gray-900"
                             id="modal-title"
                         >
-                            Add Product
+                            เพิ่มสินค้า
                         </h3>
                         <div class="mt-2">
                             <div class="mt-2">
@@ -82,7 +82,7 @@ const closeModal = () => {
                                     for="name"
                                     class="block text-sm font-medium text-gray-700"
                                 >
-                                    Name
+                                    ชื่อ
                                 </label>
                                 <div class="mt-1">
                                     <input
@@ -90,7 +90,7 @@ const closeModal = () => {
                                         type="text"
                                         name="name"
                                         id="name"
-                                        class="block w-full rounded-md border-gray-200 border-2"
+                                        class="p-2 block w-full rounded-md border-gray-200 border-2"
                                     />
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const closeModal = () => {
                                     for="price"
                                     class="block text-sm font-medium text-gray-700"
                                 >
-                                    Price
+                                    ราคา
                                 </label>
                                 <div class="mt-1">
                                     <input
@@ -107,16 +107,16 @@ const closeModal = () => {
                                         type="number"
                                         name="price"
                                         id="price"
-                                        class="block w-full rounded-md border-gray-200 border-2"
+                                        class="p-2 block w-full rounded-md border-gray-200 border-2"
                                     />
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <label
                                     for="description"
-                                    class="block text-sm font-medium text-gray-700"
+                                    class="p-2 block text-sm font-medium text-gray-700"
                                 >
-                                    Description
+                                    รายละเอียด
                                 </label>
                                 <div class="mt-1">
                                     <textarea
@@ -124,8 +124,8 @@ const closeModal = () => {
                                         name="description"
                                         v-model="product.description"
                                         rows="3"
-                                        class="block w-full rounded-md border-gray-200 border-2"
-                                        placeholder="Add a description"
+                                        class="p-2 block w-full rounded-md border-gray-200 border-2"
+                                        placeholder="รายละเอียด"
                                     ></textarea>
                                 </div>
                             </div>
@@ -139,14 +139,14 @@ const closeModal = () => {
                             class="inline-flex w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 sm:ml-3 sm:w-auto"
                             @click="addProduct"
                         >
-                            Add
+                            เพิ่ม
                         </button>
                         <button
                             type="button"
                             class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
                             @click="closeModal"
                         >
-                            Cancel
+                            ยกเลิก
                         </button>
                     </div>
                 </div>

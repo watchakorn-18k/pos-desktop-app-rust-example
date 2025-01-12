@@ -23,8 +23,8 @@ const addProduct = () => {
     isModalAddProductOpen.value = true;
 };
 
-const addProductToStore = (product: Product) => {
-    productStore.addProduct(product);
+const addProductToStore = async (product: Product) => {
+    await productStore.addProduct(product);
     foods.value = productStore.products;
 };
 </script>
@@ -42,7 +42,7 @@ const addProductToStore = (product: Product) => {
                 class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                 @click="addProduct"
             >
-                Add Product
+                เพิ่มสินค้า
             </button>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

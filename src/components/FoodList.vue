@@ -59,7 +59,9 @@ onMounted(async () => {
         @close="isPaymentSuccess = false"
     />
 
-    <div class="bg-gray-100 min-h-screen flex flex-col justify-between">
+    <div
+        class="bg-gray-50 rounded-md min-h-screen flex flex-col justify-between"
+    >
         <main class="flex-grow p-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- รายการสินค้า -->

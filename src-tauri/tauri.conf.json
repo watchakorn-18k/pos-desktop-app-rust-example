@@ -3,6 +3,7 @@
   "productName": "test_app",
   "version": "0.1.0",
   "identifier": "com.testapp.app",
+
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
